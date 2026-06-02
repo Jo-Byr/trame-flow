@@ -1,0 +1,14 @@
+.vue-flow__handle {
+  border: none; /* Overwrite default handle style */
+  border-radius: 0; /* Overwrite default handle style */
+  height: 8px; /* Overwrite default handle style */
+  clip-path: polygon(0 0, 100% 50%, 0 100%); /* Triangle shape */
+}
+
+.vue-flow__handle-right {
+  right: -7px;
+}
+
+.vue-flow__handle-left {
+  left: -7px;
+}
